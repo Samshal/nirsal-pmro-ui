@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632065012247,
+  "timestamp": 1632065162919,
   "index": "/nirsal-pmro-ui/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "/nirsal-pmro-ui/938.45ffab4074e545a13f6b.js",
         "/nirsal-pmro-ui/favicon.ico",
         "/nirsal-pmro-ui/index.html",
-        "/nirsal-pmro-ui/main.542942eaf1d26fd894eb.js",
+        "/nirsal-pmro-ui/main.5c6541f21edec697d8f4.js",
         "/nirsal-pmro-ui/manifest.webmanifest",
         "/nirsal-pmro-ui/polyfills.a3b52441d07e3e1eb717.js",
         "/nirsal-pmro-ui/runtime.93e17a8410b79ba086b9.js",
@@ -117,10 +117,10 @@
     "/nirsal-pmro-ui/assets/js/main/jquery.min.js": "0dc32db4aa9c5f03f3b38c47d883dbd4fed13aae",
     "/nirsal-pmro-ui/favicon.ico": "ca13f7b4eebde313c2c1965bb0bf1017e121b648",
     "/nirsal-pmro-ui/gps-icon.c1dff5caf910aebd9aca.svg": "882884d15ae381fd3dbd14126c4c3edc1c19cd48",
-    "/nirsal-pmro-ui/index.html": "f607c9162ea7a5bc456de4bc371dedbf40142d19",
+    "/nirsal-pmro-ui/index.html": "0d62f02dff8590266c23d99ed6523be716f803a1",
     "/nirsal-pmro-ui/layers-2x.8f2c4d11474275fbc161.png": "152a162333e46d24f9d89f566312fc0c64011dee",
     "/nirsal-pmro-ui/layers.416d91365b44e4b4f477.png": "c9e7528e491a39232ba24a2706c6c739d6fb0f06",
-    "/nirsal-pmro-ui/main.542942eaf1d26fd894eb.js": "6133c6bde7682eefd115f06d183f86a439114f89",
+    "/nirsal-pmro-ui/main.5c6541f21edec697d8f4.js": "fa83e22efea994713aa13fda93e0fb0c9488b568",
     "/nirsal-pmro-ui/manifest.webmanifest": "953d0b19924093c4fef455ab124a3aea7f356da1",
     "/nirsal-pmro-ui/marker-icon.2b3e1faf89f94a483539.png": "60a90bcbb2b42b7ddb4556db94eb7c1084b0e5da",
     "/nirsal-pmro-ui/polyfills.a3b52441d07e3e1eb717.js": "08b45f814bf5a5642cfba33eed7de84c58fe9537",
