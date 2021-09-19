@@ -1,0 +1,121 @@
+{
+  "configVersion": 1,
+  "timestamp": 1632051149023,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/366.b1eb66a6340d1df54200.js",
+        "/938.23c47f78b65958bd54ae.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.203d1bde045d29c917d4.js",
+        "/manifest.webmanifest",
+        "/polyfills.a3b52441d07e3e1eb717.js",
+        "/runtime.1bc9ae3c6ea26e437b07.js",
+        "/styles.31d6cfe0d16ae931b73c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/css/bootstrap.css",
+        "/assets/css/bootstrap.min.css",
+        "/assets/css/bootstrap_limitless.css",
+        "/assets/css/bootstrap_limitless.min.css",
+        "/assets/css/colors.css",
+        "/assets/css/colors.min.css",
+        "/assets/css/components.css",
+        "/assets/css/components.min.css",
+        "/assets/css/icons/icomoon/fonts/icomoon.eot",
+        "/assets/css/icons/icomoon/fonts/icomoon.svg",
+        "/assets/css/icons/icomoon/fonts/icomoon.ttf",
+        "/assets/css/icons/icomoon/fonts/icomoon.woff",
+        "/assets/css/icons/icomoon/styles.min.css",
+        "/assets/css/layout.css",
+        "/assets/css/layout.min.css",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-16x16.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-48x48.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/logo/nirsal-logo-mark.png",
+        "/assets/js/app.js",
+        "/assets/js/main/bootstrap.bundle.min.js",
+        "/assets/js/main/jquery.min.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/366.b1eb66a6340d1df54200.js": "3088677a7e296f79239cf0791865d0be8d97ba3e",
+    "/938.23c47f78b65958bd54ae.js": "b5cbe74ec366d5518304deceb21e89e4c87f3b3a",
+    "/assets/css/bootstrap.css": "bd42bf890699da108b0efe829aed7cdde8833326",
+    "/assets/css/bootstrap.min.css": "cc6059e6f5229722abc84b4f4061405d6615a371",
+    "/assets/css/bootstrap_limitless.css": "da2d40db45011bba50e2fe60ddb04390c717a031",
+    "/assets/css/bootstrap_limitless.min.css": "729029e16b934f844e2653388c5d92b2d7b95f97",
+    "/assets/css/colors.css": "64e65c8db473064916d6d89faa3c9f9072bb748a",
+    "/assets/css/colors.min.css": "5260b547481ac43df3e401be6cbf87f82c1651eb",
+    "/assets/css/components.css": "033a2af23d23f0e4527708b3949a70385551dd65",
+    "/assets/css/components.min.css": "bef42fcf3fbfe413bb6719eb08539b61c8c89921",
+    "/assets/css/icons/icomoon/fonts/icomoon.eot": "3e35cf373b9985448eaf28d0e5744faf41881dac",
+    "/assets/css/icons/icomoon/fonts/icomoon.svg": "f09afd474bf90d81e56c5738cc260e8f5c3b0345",
+    "/assets/css/icons/icomoon/fonts/icomoon.ttf": "fb84c49701852fb1b908129d08c71634e2499ee6",
+    "/assets/css/icons/icomoon/fonts/icomoon.woff": "28fabad2e00495d0a7690b99908003bb6d2cc988",
+    "/assets/css/icons/icomoon/styles.min.css": "d18c7a32780c4be785071860ece4ce7308fe765b",
+    "/assets/css/layout.css": "e8b3860e5439bc3bcdb48b88b792aaa468cb7d43",
+    "/assets/css/layout.min.css": "09035a8178a5bfe05a88ce29ce9f84130fc7daa0",
+    "/assets/icons/icon-144x144.png": "dce0dbf79d2d6e64cebad84f07bd6fd8787daf97",
+    "/assets/icons/icon-16x16.png": "82f4e4968611efa749366351aadb8d559de80d7f",
+    "/assets/icons/icon-192x192.png": "2503b47aeb6a62c3d98c28874df478c6308dc0e3",
+    "/assets/icons/icon-48x48.png": "efb179045229418815030068e62087c4182e621d",
+    "/assets/icons/icon-512x512.png": "a002d8ab3479b4f8151daf50c89f1fb0e1a406a8",
+    "/assets/icons/icon-72x72.png": "0beb2aed792bb319fe7550758993b139f5ecd98d",
+    "/assets/icons/icon-96x96.png": "e28b22e782eac3f94348a0b43a2ba7c91a3c1ddb",
+    "/assets/images/logo/nirsal-logo-mark.png": "2f6675062b0ee9e22fe6fedfd72277e57205d259",
+    "/assets/js/app.js": "c93f84fc727427c50a00742b1d1dbe943522f335",
+    "/assets/js/main/bootstrap.bundle.min.js": "41a4836fc0253324e7e583905f47ba7194bac91d",
+    "/assets/js/main/jquery.min.js": "0dc32db4aa9c5f03f3b38c47d883dbd4fed13aae",
+    "/favicon.ico": "ca13f7b4eebde313c2c1965bb0bf1017e121b648",
+    "/index.html": "762bc9570877fbc7c7553957277277d4001c25ff",
+    "/main.203d1bde045d29c917d4.js": "70ac18338587cb4912d48a6257e172fe478c1cc2",
+    "/manifest.webmanifest": "953d0b19924093c4fef455ab124a3aea7f356da1",
+    "/polyfills.a3b52441d07e3e1eb717.js": "08b45f814bf5a5642cfba33eed7de84c58fe9537",
+    "/runtime.1bc9ae3c6ea26e437b07.js": "2d814791beed309c16c59344add952605353cc3d",
+    "/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
