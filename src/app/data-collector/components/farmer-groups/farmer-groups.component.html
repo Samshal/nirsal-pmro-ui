@@ -1,0 +1,74 @@
+<!-- Page header -->
+<div class="page-header page-header-light">
+	<div class="page-header-content header-elements-md-inline">
+		<div class="page-title d-flex">
+			<h4><img style="width:  50px" class="img-fluid" src="assets/images/logo/nirsal-logo-mark.png"/>&nbsp;&nbsp; <span class="font-weight-semibold">PMRO Portal</span> - Farmer Groups</h4>
+			<a href="farmers-info" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+		</div>
+
+		<div class="header-elements d-none">
+			<!-- <a href="farmers-info" class="btn btn-labeled btn-labeled-right bg-primary">Button <b><i class="icon-menu7"></i></b></a> -->
+		</div>
+	</div>
+
+	<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+		<div class="d-flex">
+			<div class="breadcrumb">
+				<a href="farmers-info" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
+				<a href="farmers-info" class="breadcrumb-item">Farmer Groups</a>
+				<span class="breadcrumb-item active">Requests</span>
+			</div>
+
+			<a href="farmers-info" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+		</div>
+	</div>
+</div>
+<!-- /page header -->
+<!-- Content area -->
+<div class="content">
+	<!-- Form layouts -->
+	<div class="row">
+		<div class="col-12">
+			<!-- Horizontal form -->
+			<div class="card">
+				<div class="card-header header-elements-inline">
+					<h5 class="card-title">Field Data Capture Requests</h5>
+					<div class="header-elements">
+						<div class="list-icons">
+	                		<a class="list-icons-item" data-action="reload"></a>
+	                	</div>
+	            	</div>
+	        	</div>
+
+				<div class="card-body">
+					<div class="table-responsive col-12">
+						<table class="table">
+							<thead class="table-default">
+								<th>ID</th>
+								<th>Group Name</th>
+								<th>Location</th>
+								<th></th>
+							</thead>
+							<tbody>
+								<tr *ngFor="let group of farmerGroups; let index=index">
+									<td>{{index+1}}</td>
+									<td>{{group.group}}</td>
+									<td>{{group.location}}</td>
+									<td>
+										<a class="btn btn-sm btn-link" [routerLink]="['/pmro/new-farmer']" (click)="storeFarmer(group)">Start Capture</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						
+					</div>
+				</div>
+			</div>
+			<!-- /horizotal form -->
+
+		</div>
+	</div>
+	<!-- /form layouts -->
+	
+</div>
+<!-- /content area -->

@@ -9,7 +9,7 @@ const routes: Routes = [
     loadChildren: () => import("./public/public.module").then(m => m.PublicModule)
   },
   {
-    path: "farmers-info",
+    path: "pmro",
     component: ShellComponent,
     loadChildren: () => import("./data-collector/data-collector.module").then(m => m.DataCollectorModule)
   }

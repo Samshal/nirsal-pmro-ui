@@ -25,6 +25,7 @@
 </div>
 <!-- /page header -->
 <!-- Content area -->
+<!-- <js-camera id="camera"></js-camera> -->
 <div class="content">
 	<!-- Form layouts -->
 	<div class="row">
@@ -42,14 +43,71 @@
 
 				<div class="card-body">
 					<form action="farmers-info" class="row">
-						<div class="form-group col-9">
-							<label class="col-form-label col-12">Bank Verification Number</label>
+						<!-- <div class="form-group col-3"> -->
+							<!-- <label class="col-form-label col-12">Group Name</label>
 							<div class="col-12">
 								<input type="text" class="form-control">
 							</div>
-						</div>
-						<div class="col-3 text-center">
-							<img class="img-fluid" src="assets/images/fingerprint.png" style="height:  100px;"/>
+							<label class="col-form-label col-12">State</label>
+							<div class="col-12">
+								<input type="text" class="form-control">
+							</div>
+							<label class="col-form-label col-12">LGA</label>
+							<div class="col-12">
+								<input type="text" class="form-control">
+							</div>
+							<label class="col-form-label col-12">Ward / Village</label>
+							<div class="col-12">
+								<input type="text" class="form-control">
+							</div>
+							<label class="col-form-label col-12">Commodity Type</label>
+							<div class="col-12">
+								<input type="text" class="form-control">
+							</div>
+							<label class="col-form-label col-12">Total Land Size</label>
+							<div class="col-12">
+								<input type="text" class="form-control">
+							</div> -->
+						<!-- </div> -->
+						<div class="table-responsive col-12">
+							<table class="table">
+								<thead class="table-success">
+									<th>ID</th>
+									<th>Farmer BVN</th>
+									<th>NOK BVN</th>
+									<th>Valid ID</th>
+									<th>Photo</th>
+									<th>Fingerprint</th>
+									<th></th>
+								</thead>
+								<tbody>
+									<tr *ngFor="let farmer of farmers; let index=index">
+										<td>{{index+1}} </td>
+										<td>{{farmer.bvn}}</td>
+										<td>{{farmer.nokBvn}}</td>
+										<td>{{farmer.id}}</td>
+										<td></td>
+										<td>
+											<img class="img-fluid" src="assets/images/fingerprint.png" style="height:  50px;"/>
+											<!-- <span class="icon-x btn btn-sm btn-link text-danger" (click)="removeFarmer(index)"></span>  -->
+										</td>
+									</tr>
+									<tr *ngIf="showFarmerAddForm">
+										<td>{{farmerForm.id}}</td>
+										<td [contenteditable]="isContentEditable" name="bvn" style="border: 1px dashed #658c01" [(ngModel)]="farmerForm.bvn"></td>
+										<td [contenteditable]="isContentEditable" name="landsize" style="border: 1px dashed #658c01" [(ngModel)]="farmerForm.nokBvn"></td>
+										<td [contenteditable]="isContentEditable" name="landsize" style="border: 1px dashed #658c01" [(ngModel)]="farmerForm.id"></td>
+										<td><a class="btn btn-link" (click)="capturePhoto()">Capture photo</a></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td colspan="7" class="text-center">
+											<span class="btn btn-secondary" (click)="addFarmer()">Add Farmer</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							
 						</div>
 
 						<div class="col-12 text-right" style="margin-top:10px">

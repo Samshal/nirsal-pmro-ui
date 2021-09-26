@@ -8,17 +8,23 @@ import { DataCollectorRoutingModule } from './data-collector-routing.module';
 import { NewRegistrationComponent } from './components/new-registration/new-registration.component';
 import { NewFieldCaptureComponent } from './components/new-field-capture/new-field-capture.component';
 
+import { FormsModule } from '@angular/forms';
+import { ContenteditableModule } from '@ng-stack/contenteditable';
+import { FarmerGroupsComponent } from './components/farmer-groups/farmer-groups.component';
 
 @NgModule({
   declarations: [
     NewRegistrationComponent,
-    NewFieldCaptureComponent
+    NewFieldCaptureComponent,
+    FarmerGroupsComponent
   ],
   imports: [
     CommonModule,
     DataCollectorRoutingModule,
     SharedModule,
-    LeafletModule
+    LeafletModule,
+    ContenteditableModule,
+    FormsModule
   ]
 })
 export class DataCollectorModule { }
